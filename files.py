@@ -68,7 +68,3 @@ finally:
     print("program executed")
 
 
-name=input("enter a name")
-print(name)
-if len(name)==5:
-    raise ValueError("name should be greater tham 5")
