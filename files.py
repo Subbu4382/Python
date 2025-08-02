@@ -1,5 +1,4 @@
 import os
-
 os.getcwd()
 f=open(r'C:\Users\subra\OneDrive\Desktop\Practice\Python\factorial.py')
 a=f.read()
@@ -9,14 +8,14 @@ print(f.close())
 print(a) 
 
 f=open(r'sample.txt','w')
-f.write("this is written by subbu")
+f.write("this is written by subbu") # write() mode Overwriters the before text
 f.close()
 
 f1=open(r'sample.txt','a')   #append
-f1.write(" .learning file using python")
+f1.write(" .learning file using python") # Add text to end of a file
 f1.close()
 
-
+# Creates a file and write text if file not exists
 f2=open(r'sample3.txt','w')
 f2.write('we are adding to write a text on the file which does not exists')
 f2.close()
@@ -28,6 +27,10 @@ else:
     print("File not found.")
 
 # os.remove('sample2.txt')   # deletes the file
+
+
+# The with block ensures the file is automatically closed, 
+# even if an error occurs — making your code safer and cleaner.
 
 with open("sample.txt", "r") as f:
     lines = f.readlines()

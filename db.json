@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "subbu"
+    },
+    {
+      "id": 2,
+      "name": "subrahmanyam"
+    }
+  ],
+  "products": []
+}
