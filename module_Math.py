@@ -36,12 +36,28 @@ print(math.ceil(12.6))
 ceilnumber=float(input("enter a float number :"))
 print((ceilnumber//1)+1)
 
-
 # Finding the value of pi
 print(math.pi)
 
 # Finding Eulers number 
 print(math.e)
+
+# Convert degrees to radians
+degrees = 180
+print("Radians:", math.radians(degrees))
+# without using math module
+degrees=180
+radians=degrees * (22/7) / 180
+print(radians)
+
+
+# Convert radians to degrees
+radians = math.pi
+print("Degrees:", math.degrees(radians))
+# without using math module
+radians=22/7
+degrees=radians * 180 / (22/7)
+print(degrees)
 
 # Finding Natural logarithm
 print(math.log(50))
