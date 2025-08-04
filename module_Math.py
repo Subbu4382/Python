@@ -38,7 +38,6 @@ print((ceilnumber//1)+1)
 
 # Finding the value of pi
 print(math.pi)
-
 # Finding Eulers number 
 print(math.e)
 
