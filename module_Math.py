@@ -11,6 +11,11 @@ print(math.pow(5,2))
 n=int(input("enter a number"))
 print(n**2)
 
+# Finding Area of circle
+radius = 5
+area = math.pi * math.pow(radius, 2)
+print("Area of circle:", area)
+
 #finding factorial
 print(math.factorial(5))
 # without using math module
@@ -30,6 +35,7 @@ print(math.ceil(12.6))
 # without using math module
 ceilnumber=float(input("enter a float number :"))
 print((ceilnumber//1)+1)
+
 
 # Finding the value of pi
 print(math.pi)
