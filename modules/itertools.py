@@ -31,3 +31,14 @@ items = ["A", "B", "C"]
 for perm in permutations(items, 2):
     print(perm)
 
+# chain(list1, list2) joins multiple iterables into one
+from itertools import chain
+list1 = [1, 2, 3]
+list2 = [4, 5]
+for item in chain(list1, list2):
+    print(item) 
+
+# Product(iter1,iter2) products like a nested loops
+from itertools import product
+print(list(product([1,2],["A","B"])))
+
