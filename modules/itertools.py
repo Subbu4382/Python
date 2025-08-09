@@ -14,3 +14,20 @@ for i, color in enumerate(cycle(colors), 1):  # Keep a counter starting at 1
     if i == 6:  
         break
 
+# repeat(value, times) repeats the same item a set number of times
+from itertools import repeat
+for val in repeat("Python", 3):
+    print(val) 
+
+# combinations(iterable, r) → All unique groups of length r
+from itertools import combinations
+items = ["A", "B", "C"]
+for combo in combinations(items, 2):
+    print(combo)
+
+# permutations(iterable, r) → All possible arrangements of length r
+from itertools import permutations
+items = ["A", "B", "C"]
+for perm in permutations(items, 2):
+    print(perm)
+
