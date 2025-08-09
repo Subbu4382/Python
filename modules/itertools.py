@@ -42,3 +42,16 @@ for item in chain(list1, list2):
 from itertools import product
 print(list(product([1,2],["A","B"])))
 
+# Accumulate(iterable) runs as addition of a next number
+from itertools import accumulate
+print(list(accumulate([1,2,3,4,5])))
+
+# Enumerate(iterable,start=0) add indexes to the values
+a="python"
+for i,val in enumerate(a,start=1):
+    print(i,val)
+
+# zip() combines two or more iterables elements into tuples
+names=["a","b","c","d"]
+id=[1,2,3,4]
+print(list(zip(names,id)))
