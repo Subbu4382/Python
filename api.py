@@ -16,7 +16,7 @@ except:
    print("Key not exists")
 # except Exception as e:
 #    print(e)
-finally:
-   with open("files.py",'r') as f:
-     print(f.read())
-   print("executed successfully")
+# finally:
+#    with open("files.py",'r') as f:
+#      print(f.read())
+#    print("executed successfully")
