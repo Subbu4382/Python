@@ -7,3 +7,4 @@ this is written by subbulearning file using python .learning file using python l
 this is written by subbulearning file using python .learning file using python
 this is written by subbulearning file using python .learning file using python
 this is written by subbulearning file using python .learning file using python
+we are adding to write a text on the file which does not exists
