@@ -1,0 +1,27 @@
+# Introduction to SQLite
+sqlite is a c-language library that implements a self-contained,serverless,zero-configuration,tranctional sql database engine
+self-containes : requires minimal support from the operating system or external library
+zero-configuration : server less architecture , no installation required
+maintenance : its just a single file so, a normal copy-paste is enough to create a back-up
+
+
+limitations : database size is restricted to 2GB in most cases
+              SQLite used to handle low to medium traffic(HTTP Request)
+              400 k to 500k HTTP requests per day
+
+Appropriate use of SQLite (Situations where SQLite works well) :
+1--> Embedded devices and the internet of things (Cellphones,set-top boxes,televisions,game consoles,cameras,watches,kitchen appliances,remote sensors,drones...)
+2-->websites
+3-->Data Analysis
+
+# Installation of SQLite :
+   1) Visit the websote : https://www.sqlite.org/download.html
+   2) Download the pre-compiled file based on your os
+   3) Open terminal & navigate to the folder (Open the terminal at folder location) and type sqlite3
+
+#Working with SQLite
+    # Dot Commands:
+    1) All the commands starts with a dot(.) are specify to sqqlite. These commands will not work in other RDBMS.
+    2) Dot(.) commands dont need (;) at the end
+    3) Dot(.) is the part of the syntax but not command itself
+
