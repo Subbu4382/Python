@@ -25,6 +25,4 @@ Appropriate use of SQLite (Situations where SQLite works well) :
     2) Dot(.) commands dont need (;) at the end
     3) Dot(.) is the part of the syntax but not command itself
 
-python-problem-solving(evening)2h
-js-concepts with practically(afternoon)2h
-sql-practice(night)1h
+
